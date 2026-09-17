@@ -4,4 +4,4 @@ color= "Blue"
 
 print("My name is", name)
 print("I am",age,"years old")
-print("My favourite color is",color)
+print("My favorite color is",color)
