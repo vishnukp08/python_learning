@@ -22,6 +22,15 @@ for i in range(3):
         print(i,j)
 '''
 
+#printing odd numbers from 1 to 20
+'''''
 for i in range(1,20):
     if i%2!=0:
         print(i)
+'''''
+
+#printing sum of numbers from 1 to 100
+sum=0
+for i in range(1,10):
+    sum=sum+i
+print(sum)
