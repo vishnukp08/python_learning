@@ -1,3 +1,5 @@
+ # Print a multiplication table for a number the user inputs (1 to 10)
+
 n=input("Enter a number: ")
 n=int(n)
 
