@@ -1,14 +1,27 @@
-calc_to_unit=24
-units="hours"
+cal_units = 24 * 60 * 60
+units = "Seconds"
 
-def day_to_units(n):
-	if n>0:
-		return f"{n} days are {n * calc_to_unit} {units}"
-	elif n==0:
-		return "You entered 0"
-	else:
-		return "You entered a -ve number"
-user=input("Enter no.of days: ")
-user=int(user)
-res=day_to_units(user)
-print(res)
+def calc(n):
+    return f"{n} days are {n * cal_units} {units}"
+        
+        
+def validate():
+    try:
+        user_in=int(num)
+        if user_in > 0:
+            res=calc(user_in)
+            print(res)
+        elif user_in==0:
+            print("You entered 0")
+        else:
+            print("You entered negative number")
+    except:
+        print("Enter valid number")
+        
+user=""
+
+while user.lower() != "exit":
+	user=input("Enter no.of days: ")
+	print(user.split())
+	for num in user.split():
+		validate()
