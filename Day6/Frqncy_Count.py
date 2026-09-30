@@ -1,3 +1,4 @@
+#for character in a string
 '''
 txt = "banana"
 
@@ -8,6 +9,7 @@ for ch in txt:
 
 print(count)
 '''
+#for words in a sentence
 
 txt = "hello python hello word python is great"
 
