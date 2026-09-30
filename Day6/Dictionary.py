@@ -1,10 +1,24 @@
-my_dictionary={"days":20, "units":"hours"}
-print(my_dictionary["days"])
+student = {"name":"Vishnu", "age":24, "course":"CSE"}
 
-'''
-IN LIST
+print(student)
+print(student["name"])
 
-my_list = ["apple", "banana", "cherry"]
-print(my_list[2])
+for key, value in student.items():
+    print(f"{key} : {value}")
 
-'''
+student["college"] = "GCEK"
+print(student)
+
+student["age"] = 25
+print("\n",student)
+
+for key,value in student.items():
+    print(f"{key} : {value}")
+
+student.pop("age")
+print("\n",student)
+
+#del student["age"]
+
+for key, value in student.items():
+    print(f"{key} : {value}")
