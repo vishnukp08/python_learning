@@ -1,9 +1,15 @@
-my_set={"jan", "feb", "mar"}
-for element in my_set:
-    print(element)
-    
-my_set.add("apr")
-print(my_set)
+#month={"jan", "feb", "mar", "jan"}
+#print(month)
 
-my_set.remove("feb")
-print(my_set)
+num = {1,2,2,3,4,4,5}
+
+print(num)
+
+for m in num:
+    print(m)
+
+num.add(6)
+print(num)
+
+num.remove(1)
+print(num)
