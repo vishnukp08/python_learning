@@ -1,5 +1,5 @@
 txt1 = "silent"
-txt2 = "listn"
+txt2 = "listen"
 
 count1 = {}
 count2 = {}
