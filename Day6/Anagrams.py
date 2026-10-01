@@ -1,5 +1,5 @@
 txt1 = "silent"
-txt2 = "listen"
+txt2 = "listn"
 
 count1 = {}
 count2 = {}
@@ -14,5 +14,13 @@ for ch in txt2:
 
 if count1 == count2:
     print("Anagrams")
+else:
+    print("Not Anagrams")
+
+#using sort
+
+if sorted(txt1) == sorted(txt2):
+    print("Anagrams")
+
 else:
     print("Not Anagrams")
