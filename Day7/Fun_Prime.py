@@ -1,6 +1,6 @@
 def is_prime(n):
     if n < 2:
-        print("Not prime")
+        return False
     else:
         for i in range(2, n):
             if n % i == 0:
@@ -9,4 +9,4 @@ def is_prime(n):
 
         return True
 
-print(is_prime(6))
+print(is_prime(0))
