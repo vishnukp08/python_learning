@@ -5,8 +5,10 @@ def count_vow():
 
     count = 0
 
-    for char in txt:
-        if txt == vowels:
-            count += vowels
+    for char in txt.lower():
+        if char in vowels:
+            count += 1
 
-count_vow()
+    return count
+
+print(count_vow())
